@@ -1,8 +1,8 @@
 //import 'dart:html';
 
-import 'package:mysalary/home/fab_with_icons.dart';
-import 'package:mysalary/home/fab_bottom_app_bar.dart';
-import 'package:mysalary/home/layout.dart';
+import 'file:///C:/apps/mysalary/lib/fab_with_icons.dart';
+import 'file:///C:/apps/mysalary/lib/fab_bottom_app_bar.dart';
+import 'package:mysalary/layout.dart';
 import 'package:flutter/material.dart';
 import 'package:mysalary/Library.dart';
 import 'dart:convert';

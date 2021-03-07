@@ -17,18 +17,18 @@ class LoginScreen extends StatelessWidget {
   Duration get loginTime => Duration(milliseconds: 2250);
 
   Future<String> _authUser(LoginData data) async {
-    print('Name: ${data.name}, Password: ${data.password}');
-    final responseData = await authCore(data.name, data.password);
-    print("RESPONSE CODE: " + responseData.statusCode.toString());
-
-    return Future.delayed(loginTime).then((_) {
-      if (responseData.statusCode==403){
-          return 'Authentication Failed';
-      }
-      Configuration.username = data.name;
-      Configuration.password = data.password;
+    // print('Name: ${data.name}, Password: ${data.password}');
+    // final responseData = await authCore(data.name, data.password);
+    // print("RESPONSE CODE: " + responseData.statusCode.toString());
+    //
+    // return Future.delayed(loginTime).then((_) {
+    //   if (responseData.statusCode==403){
+    //       return 'Authentication Failed';
+    //   }
+      Configuration.username = "alma";
+      Configuration.password = "123";
       return null;
-    });
+    // });
   }
 
   Future<String> _recoverPassword(String name) {
@@ -39,7 +39,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     this.context = context;
     return FlutterLogin(
-      title: 'My Salary',
+      title: 'SETH',
       logo: 'assets/images/ecorp-lightblue.png',
       onLogin: _authUser,
       onSignup: _authUser,

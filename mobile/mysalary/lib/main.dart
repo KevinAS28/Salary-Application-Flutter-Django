@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mysalary/login.dart';
-import 'package:mysalary/home/home.dart';
+import 'file:///C:/apps/mysalary/lib/home.dart';
 
 void main() => runApp(MyApp());
 
