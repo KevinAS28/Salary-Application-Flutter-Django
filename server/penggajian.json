@@ -1,0 +1,143 @@
+[
+{"type":"header","version":"5.0.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"penggajian"},
+{"type":"table","name":"auth_group","database":"penggajian","data":
+[
+
+]
+}
+,{"type":"table","name":"auth_group_permissions","database":"penggajian","data":
+[
+
+]
+}
+,{"type":"table","name":"auth_permission","database":"penggajian","data":
+[
+{"id":"1","name":"Can add log entry","content_type_id":"1","codename":"add_logentry"},
+{"id":"2","name":"Can change log entry","content_type_id":"1","codename":"change_logentry"},
+{"id":"3","name":"Can delete log entry","content_type_id":"1","codename":"delete_logentry"},
+{"id":"4","name":"Can view log entry","content_type_id":"1","codename":"view_logentry"},
+{"id":"5","name":"Can add permission","content_type_id":"2","codename":"add_permission"},
+{"id":"6","name":"Can change permission","content_type_id":"2","codename":"change_permission"},
+{"id":"7","name":"Can delete permission","content_type_id":"2","codename":"delete_permission"},
+{"id":"8","name":"Can view permission","content_type_id":"2","codename":"view_permission"},
+{"id":"9","name":"Can add group","content_type_id":"3","codename":"add_group"},
+{"id":"10","name":"Can change group","content_type_id":"3","codename":"change_group"},
+{"id":"11","name":"Can delete group","content_type_id":"3","codename":"delete_group"},
+{"id":"12","name":"Can view group","content_type_id":"3","codename":"view_group"},
+{"id":"13","name":"Can add user","content_type_id":"4","codename":"add_user"},
+{"id":"14","name":"Can change user","content_type_id":"4","codename":"change_user"},
+{"id":"15","name":"Can delete user","content_type_id":"4","codename":"delete_user"},
+{"id":"16","name":"Can view user","content_type_id":"4","codename":"view_user"},
+{"id":"17","name":"Can add content type","content_type_id":"5","codename":"add_contenttype"},
+{"id":"18","name":"Can change content type","content_type_id":"5","codename":"change_contenttype"},
+{"id":"19","name":"Can delete content type","content_type_id":"5","codename":"delete_contenttype"},
+{"id":"20","name":"Can view content type","content_type_id":"5","codename":"view_contenttype"},
+{"id":"21","name":"Can add session","content_type_id":"6","codename":"add_session"},
+{"id":"22","name":"Can change session","content_type_id":"6","codename":"change_session"},
+{"id":"23","name":"Can delete session","content_type_id":"6","codename":"delete_session"},
+{"id":"24","name":"Can view session","content_type_id":"6","codename":"view_session"},
+{"id":"25","name":"Can add tbl admin","content_type_id":"7","codename":"add_tbladmin"},
+{"id":"26","name":"Can change tbl admin","content_type_id":"7","codename":"change_tbladmin"},
+{"id":"27","name":"Can delete tbl admin","content_type_id":"7","codename":"delete_tbladmin"},
+{"id":"28","name":"Can view tbl admin","content_type_id":"7","codename":"view_tbladmin"},
+{"id":"29","name":"Can add tbl jabatan","content_type_id":"8","codename":"add_tbljabatan"},
+{"id":"30","name":"Can change tbl jabatan","content_type_id":"8","codename":"change_tbljabatan"},
+{"id":"31","name":"Can delete tbl jabatan","content_type_id":"8","codename":"delete_tbljabatan"},
+{"id":"32","name":"Can view tbl jabatan","content_type_id":"8","codename":"view_tbljabatan"},
+{"id":"33","name":"Can add tbl karyawan","content_type_id":"9","codename":"add_tblkaryawan"},
+{"id":"34","name":"Can change tbl karyawan","content_type_id":"9","codename":"change_tblkaryawan"},
+{"id":"35","name":"Can delete tbl karyawan","content_type_id":"9","codename":"delete_tblkaryawan"},
+{"id":"36","name":"Can view tbl karyawan","content_type_id":"9","codename":"view_tblkaryawan"},
+{"id":"37","name":"Can add tbl gaji","content_type_id":"10","codename":"add_tblgaji"},
+{"id":"38","name":"Can change tbl gaji","content_type_id":"10","codename":"change_tblgaji"},
+{"id":"39","name":"Can delete tbl gaji","content_type_id":"10","codename":"delete_tblgaji"},
+{"id":"40","name":"Can view tbl gaji","content_type_id":"10","codename":"view_tblgaji"}
+]
+}
+,{"type":"table","name":"auth_user","database":"penggajian","data":
+[
+
+]
+}
+,{"type":"table","name":"auth_user_groups","database":"penggajian","data":
+[
+
+]
+}
+,{"type":"table","name":"auth_user_user_permissions","database":"penggajian","data":
+[
+
+]
+}
+,{"type":"table","name":"django_admin_log","database":"penggajian","data":
+[
+
+]
+}
+,{"type":"table","name":"django_content_type","database":"penggajian","data":
+[
+{"id":"1","app_label":"admin","model":"logentry"},
+{"id":"7","app_label":"api","model":"tbladmin"},
+{"id":"10","app_label":"api","model":"tblgaji"},
+{"id":"8","app_label":"api","model":"tbljabatan"},
+{"id":"9","app_label":"api","model":"tblkaryawan"},
+{"id":"3","app_label":"auth","model":"group"},
+{"id":"2","app_label":"auth","model":"permission"},
+{"id":"4","app_label":"auth","model":"user"},
+{"id":"5","app_label":"contenttypes","model":"contenttype"},
+{"id":"6","app_label":"sessions","model":"session"}
+]
+}
+,{"type":"table","name":"django_migrations","database":"penggajian","data":
+[
+{"id":"1","app":"contenttypes","name":"0001_initial","applied":"2021-03-07 11:41:17.970600"},
+{"id":"2","app":"auth","name":"0001_initial","applied":"2021-03-07 11:41:18.693603"},
+{"id":"3","app":"admin","name":"0001_initial","applied":"2021-03-07 11:41:20.318525"},
+{"id":"4","app":"admin","name":"0002_logentry_remove_auto_add","applied":"2021-03-07 11:41:20.828832"},
+{"id":"5","app":"admin","name":"0003_logentry_add_action_flag_choices","applied":"2021-03-07 11:41:20.868846"},
+{"id":"6","app":"api","name":"0001_initial","applied":"2021-03-07 11:41:21.249732"},
+{"id":"7","app":"contenttypes","name":"0002_remove_content_type_name","applied":"2021-03-07 11:41:21.974634"},
+{"id":"8","app":"auth","name":"0002_alter_permission_name_max_length","applied":"2021-03-07 11:41:22.146139"},
+{"id":"9","app":"auth","name":"0003_alter_user_email_max_length","applied":"2021-03-07 11:41:22.251061"},
+{"id":"10","app":"auth","name":"0004_alter_user_username_opts","applied":"2021-03-07 11:41:22.290171"},
+{"id":"11","app":"auth","name":"0005_alter_user_last_login_null","applied":"2021-03-07 11:41:22.512040"},
+{"id":"12","app":"auth","name":"0006_require_contenttypes_0002","applied":"2021-03-07 11:41:22.520639"},
+{"id":"13","app":"auth","name":"0007_alter_validators_add_error_messages","applied":"2021-03-07 11:41:22.565515"},
+{"id":"14","app":"auth","name":"0008_alter_user_username_max_length","applied":"2021-03-07 11:41:22.656909"},
+{"id":"15","app":"auth","name":"0009_alter_user_last_name_max_length","applied":"2021-03-07 11:41:22.744485"},
+{"id":"16","app":"auth","name":"0010_alter_group_name_max_length","applied":"2021-03-07 11:41:22.825398"},
+{"id":"17","app":"auth","name":"0011_update_proxy_permissions","applied":"2021-03-07 11:41:22.880455"},
+{"id":"18","app":"auth","name":"0012_alter_user_first_name_max_length","applied":"2021-03-07 11:41:22.948654"},
+{"id":"19","app":"sessions","name":"0001_initial","applied":"2021-03-07 11:41:23.070526"}
+]
+}
+,{"type":"table","name":"django_session","database":"penggajian","data":
+[
+
+]
+}
+,{"type":"table","name":"tbl_admin","database":"penggajian","data":
+[
+{"id_admin":"1","username":"admin","password":"admin"}
+]
+}
+,{"type":"table","name":"tbl_gaji","database":"penggajian","data":
+[
+{"id_gaji":"1","gaji_kotor":"500000","jumlah_lembur":"100000","pajak":"10000","total_tunjangan":"40000","gaji_bersih":"5000000","bulan":"5","tahun":"2001","id_karyawan":"1"},
+{"id_gaji":"2","gaji_kotor":"50000","jumlah_lembur":"100000","pajak":"30000","total_tunjangan":"2000","gaji_bersih":"1000000","bulan":"6","tahun":"2020","id_karyawan":"2"}
+]
+}
+,{"type":"table","name":"tbl_jabatan","database":"penggajian","data":
+[
+{"id_jabatan":"1","nama_jabatan":"CEO","jumlah_gaji_pokok":"2000000","upah_lembur":"500000"},
+{"id_jabatan":"2","nama_jabatan":"OB","jumlah_gaji_pokok":"50000000","upah_lembur":"500000"}
+]
+}
+,{"type":"table","name":"tbl_karyawan","database":"penggajian","data":
+[
+{"id_karyawan":"1","nama_karyawan":"alma","alamat":"jl 12345","no_hp":"212345","tempat_lahir":"jakarta","tanggal_lahir":"0000-00-00","jenis_kelamin":"perempuan","status":"belum menikah","jumlah_anak":"0","username":"almahiral@a.com","password":"12345","id_jabatan":"1"},
+{"id_karyawan":"2","nama_karyawan":"kevin","alamat":"jl elang 1","no_hp":"12345","tempat_lahir":"bandung","tanggal_lahir":"0000-00-00","jenis_kelamin":"pria","status":"kawin","jumlah_anak":"3","username":"a@a.com","password":"456","id_jabatan":"2"}
+]
+}
+]
